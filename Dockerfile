@@ -1,5 +1,6 @@
 FROM resin/raspberry-pi-alpine:3.4
-MAINTAINER jamaluddinfikri <jamaluddin8157@gmail.com>
+
+MAINTAINER jamaluddin fikri <jamaluddin8157@gmail.com>
 
 RUN apk --update add wget \
     nginx \
