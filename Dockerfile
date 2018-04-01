@@ -30,7 +30,7 @@ RUN apk --update add wget \
     mkdir -p /var/log/supervisor   && \
     rm /etc/nginx/nginx.conf
 
-ADD onf/nginx.conf /etc/nginx/nginx.conf
+ADD conf/nginx.conf /etc/nginx/nginx.conf
 ADD conf/supervisord.conf /etc/supervisord.conf
 ADD conf/start.sh /start.sh
 ADD conf/php-fpm.conf  /etc/php5/php-fpm.conf
